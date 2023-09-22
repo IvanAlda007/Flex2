@@ -1,0 +1,161 @@
+body{
+    background: #000;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: #ff0;
+}
+
+h3{
+    color: #fff;
+}
+
+#principal{
+    background: #777;;
+}
+
+.contenedor{
+    width: 690px;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #ff0000;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #fff;
+    width: 120px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p{
+    margin: 39.5px;
+}
+
+#caja1{
+    flex-direction: row;
+}
+
+#caja1>div{
+    background: #8a2be2;
+}
+
+/*------------------------------- CAJA 2 --------------------------------*/
+
+#caja2{
+    flex-direction: row-reverse;
+}
+
+#caja2>div{
+    background: #2be2ab;
+}
+
+/*------------------------------- CAJA 3 --------------------------------*/
+
+#caja3{
+    width: 130px;
+    flex-direction: column;
+}
+
+#caja3>div{
+    background: #e22b2b;
+}
+
+/*------------------------------- CAJA 4 --------------------------------*/
+
+#caja4{
+    width: 130px;
+    flex-direction: column-reverse;
+}
+
+#caja4>div{
+    background: #e22b59;
+}
+
+/*------------------------------- CAJA 5 --------------------------------*/
+
+#caja5{
+    width: 130px;
+    flex-wrap: wrap;
+}
+
+#caja5>div{
+    background: #e2742b;
+}
+
+/*------------------------------- CAJA 6 --------------------------------*/
+
+#caja6{
+    width: 130px;
+    flex-wrap: nowrap;
+}
+
+#caja6>div{
+    background: #e2b72b;
+}
+
+/*------------------------------- CAJA 7 --------------------------------*/
+
+#caja7{
+    width: 130px;
+    flex-wrap: wrap-reverse;
+}
+
+#caja7>div{
+    background: #d6e22b;
+}
+
+/*------------------------------- CAJA 8 --------------------------------*/
+
+#caja8{
+    justify-content: flex-start;
+}
+
+#caja8>div{
+    background: #2bd6e2;
+}
+
+/*------------------------------- CAJA 9 --------------------------------*/
+
+#caja9{
+    justify-content: flex-end;
+}
+
+#caja9>div{
+    background: #2b37e2;
+}
+
+/*------------------------------- CAJA 10 --------------------------------*/
+
+#caja10{
+    justify-content: center;
+}
+
+#caja10>div{
+    background: #892be2;
+}
+
+/*------------------------------- CAJA 11 --------------------------------*/
+
+#caja11{
+    justify-content: space-between;
+}
+
+#caja11>div{
+    background: #892be2;
+}
+
+/*------------------------------- CAJA 12 --------------------------------*/
+
+#caja12{
+    justify-content: space-around;
+}
+
+#caja12>div{
+    background: #892be2;
+}
